@@ -17,7 +17,7 @@ label3.grid(row=3, column=0, columnspan=3, padx=5, pady=20)
 def computer():
     gamer = int(entrybox.get())
     com = random.randint(0, 9)
-    a = ("You ", gamer, "Computer ", com)
+    a = ("You", gamer, "Computer", com)
     if 0 <= gamer <= 9:
         if com == gamer:
             label3.configure(text="Win")
